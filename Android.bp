@@ -135,14 +135,7 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "hyper-default-sec.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/hyper-default-sec.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
+
 
 prebuilt_etc_xml {
 	name: "lights-default-sec.xml",
@@ -180,14 +173,7 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "power-default.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
+
 
 prebuilt_etc_xml {
 	name: "sec.android.hardware.nfc@1.2-service.xml",
@@ -270,14 +256,7 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
+
 
 prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.security.ssu-manifest.xml",
@@ -360,14 +339,7 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.vibrator-default.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
+
 
 prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.wifi.hostapd.xml",
