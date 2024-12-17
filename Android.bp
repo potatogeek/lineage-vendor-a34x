@@ -136,15 +136,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "face-default-sec.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/face-default-sec.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "hyper-default-sec.xml",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/hyper-default-sec.xml",
@@ -319,15 +310,6 @@ prebuilt_etc_xml {
 	name: "vendor.samsung.hardware.sehradio_manifest_2_30.xml",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_30.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.samsung.hardware.snap-default.xml",
-	owner: "samsung",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
